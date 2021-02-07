@@ -1,12 +1,9 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+
+import Calendars from '../../components/calendar';
 
 const Calendar: React.FC = () => {
-  return (
-    <View>
-      <Text>Calendar</Text>
-    </View>
-  );
+  return <Calendars />;
 };
 
 export default Calendar;
